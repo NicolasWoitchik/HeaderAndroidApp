@@ -1,0 +1,8 @@
+{
+  "notification-actions": [
+    {
+      "type": "sendEmail",
+      "class": "com.headerinteractive.notificationapp.EmailNotificationAction"
+    }
+  ]
+}

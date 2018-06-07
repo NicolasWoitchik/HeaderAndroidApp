@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_menu_inbox"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/nav_inapp"
+            android:icon="@drawable/ic_menu_inbox"
+            android:title="InApp" />
+        <item
+            android:id="@+id/nav_geofences"
+            android:icon="@drawable/ic_menu_map"
+            android:title="Geofences" />
+        <item
+            android:id="@+id/nav_beacons"
+            android:icon="@drawable/ic_menu_beacons"
+            android:title="Beacons" />
+        <item
+            android:id="@+id/nav_registration_details"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Registration Details" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
